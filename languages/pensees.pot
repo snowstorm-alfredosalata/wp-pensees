@@ -1,0 +1,48 @@
+# Copyright (C) 2025 Alfredo Salata
+# This file is distributed under the same license as the Pensées plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pensées 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pensees\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-22T18:45:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: pensees\n"
+
+#. Plugin Name of the plugin
+msgid "Pensées"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://github.com/snowstorm-alfredosalata"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin to manage and display short-form reflective posts called pensées, with AJAX navigation and styling."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alfredo Salata"
+msgstr ""
+
+#: src/pensee_viewer.php:9
+msgid "No pensées available."
+msgstr ""
+
+#: src/pensee_viewer.php:28
+msgid "Previous"
+msgstr ""
+
+#: src/pensee_viewer.php:32
+msgid "Random"
+msgstr ""
+
+#: src/pensee_viewer.php:37
+msgid "Next"
+msgstr ""

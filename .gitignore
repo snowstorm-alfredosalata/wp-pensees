@@ -1,0 +1,41 @@
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build output
+/build/
+/*.zip
+
+# WP-CLI or composer vendor files (if any)
+vendor/
+
+# Logs / Debug
+debug.log
+*.log
+
+# Translations: Keep source files, ignore compiled ones
+languages/*.mo
+languages/*.pot~
+languages/*.po~
+
+# Backup/temp files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Node/npm (if not used, optional)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cache / Temp
+.cache/
+*.cache
+.phpunit.result.cache
