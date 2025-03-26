@@ -1,6 +1,6 @@
 # Plugin meta
 PLUGIN_NAME := pensees
-VERSION := 1.0
+VERSION := 1.1
 
 MAKEFILE_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 BUILD_DIR := $(MAKEFILE_DIR)build
@@ -36,7 +36,8 @@ zip:
 		--exclude='*.sh' \
 		--exclude='*.DS_Store' \
 		. $(BUILD_DIR)/$(PLUGIN_NAME)/
-	@cd $(BUILD_DIR) && zip -rq ../$(PLUGIN_NAME)-$(VERSION).zip $(PLUGIN_NAME)
+	@cd $(BUILD_DIR) && zip -rq ./$(PLUGIN_NAME)-$(VERSION).zip $(PLUGIN_NAME)
+	@rm -rf $(BUILD_DIR)/pensees
 	@echo "✅ Built $(PLUGIN_NAME)-$(VERSION).zip"
 
 # Clean build artifacts

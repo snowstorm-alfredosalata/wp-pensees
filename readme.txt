@@ -4,7 +4,7 @@ Tags: thoughts, quotes, ajax, short-form, minimal
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.0
+Stable tag: 1.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -43,10 +43,16 @@ Yes, it includes a text domain.
 
 == Changelog ==
 
+= 1.1 =
+* Translations and additional options for shortcode viewer.
+
 = 1.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.1 =
+Translations and additional options for shortcode viewer.
 
 = 1.0 =
 First stable release.

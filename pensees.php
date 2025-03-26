@@ -3,7 +3,7 @@
  * Plugin Name:       Pensées
  * Plugin URI:        https://github.com/snowstorm-alfredosalata
  * Description:       A plugin to manage and display short-form reflective posts called pensées, with AJAX navigation and styling.
- * Version:           1.0
+ * Version:           1.1
  * Author:            Alfredo Salata
  * Author URI:        https://github.com/snowstorm-alfredosalata
  * License:           MIT
@@ -11,7 +11,6 @@
  * Text Domain:       pensees
  * Domain Path:       /languages
  */
-
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
@@ -22,7 +21,6 @@ define('PENSEES_PATH', plugin_dir_path(__FILE__));
 require_once PENSEES_PATH . 'src/pensee_post_type.php';
 require_once PENSEES_PATH . 'src/pensee_viewer.php';
 require_once PENSEES_PATH . 'src/pensee_ajax.php';
-
 
 function PENSEES_init() {
     pensees_register_pensee_post_type();
@@ -40,14 +38,16 @@ function PENSEES_enqueue_scripts() {
         'pensees-css',
         plugins_url('css/pensees.css', __FILE__),
         array(),
-        '1.0'
+        '1.1'
     );
+
+    wp_enqueue_style('dashicons'); 
 
     wp_enqueue_script(
         'pensees-js',
         plugins_url('js/pensees.js', __FILE__),
         array('jquery'),
-        '1.0',
+        '1.1',
         true
     );
 
